@@ -1,0 +1,13 @@
+/**
+ * Template CSS 
+ * 
+ * Hire is stored all CSS divided by Areas
+ */
+
+@import url("main.css");
+@import url("fonts.css");
+@import url("head.css");
+@import url("menu.css");
+@import url("modules.css");
+@import url("content.css");
+@import url("typography.css");

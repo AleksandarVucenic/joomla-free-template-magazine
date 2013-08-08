@@ -1,0 +1,195 @@
+/**
+ * Typography CSS Style
+ *      
+ */
+
+/*----- TITLES and TEXT CSS Style -----*/
+
+/* Reset Headings */
+.contact-miscinfo > dl > dd,
+.newsflash .newsflash-title,
+.ns2-row h4,
+h1,h2,h3,h4,h5,h6{
+    display: block;
+    line-height: normal;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*--- Fonts style Reset ---*/
+.blog>h1,
+.cat-children h3,
+.contact>h3,
+.item>h2,
+.item>h2 a,
+.items-more h3,
+.item-page>h2:first-child,
+.item-page>h2:first-child a,
+.leading-0>h2,
+.leading-0>h2 a,
+.moduletable h3,
+.top-content .lnd_latestnews_item a,
+.top-content .lnd_latestnews_item .date,
+.newsflash .newsflash-title a,
+.newsflash .readmore,
+.ns2-title a,
+.readmore a,
+.search .page-title,
+.top-content .ns2-row{
+    color: #fff;
+    font-family: BenchNine-Regular, Arial;
+    font-size: 18px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+/*--- Margins + Paddings + Layout ---*/
+
+/* Custom Display */
+.cat-children h3,
+.contact>h3,
+.item>h2,
+.item>h2 a,
+.items-more h3,
+.items-more ol li a,
+.item-page>h2:first-child,
+.leading-0>h2,
+.leading-0>h2 a,
+.search .page-title,
+.moduletable h3,
+.newsflash .newsflash-title a,
+.top-content .ns2-row a,
+.readmore a{
+    display: block;
+    
+}
+
+/*--- Custom Font Size  ---*/
+
+.cat-children h3,
+.contact>h3,
+.items-more h3,
+.item-page>h2:first-child,
+.item-page>h2:first-child a,
+.leading-0>h2,
+.leading-0>h2 a,
+.moduletable h3,
+.search .page-title{
+    font-size: 23px;
+}
+.blog>h1{ font-size: 25px; }
+
+#contact-form > fieldset > legend{
+    font-size: 14px;
+}
+
+/*----- Custom Padding -----*/
+.blog>h1,
+.cat-children h3,
+.contact>h3,
+.item>h2,
+.items-more h3,
+.items-more ol li a,
+.item-page>h2:first-child,
+.leading-0>h2,
+.moduletable h3,
+.readmore a,
+.newsflash .readmore,
+.search .page-title{
+    padding: 5px;
+}
+
+/* Custom Margins */
+.readmore{
+    margin: 0px;
+}
+.newsflash .readmore{
+    margin-bottom: 10px;
+}
+
+/* Borders */
+.items-more h3,
+.top-content .moduletable h3{
+    border-bottom: 1px solid #550000;
+}
+
+.contact>h3{
+    border-bottom: 2px solid #770000;
+}
+
+/* Custop Color And Background */
+
+/*Color*/
+.category-name a:hover{
+    color: #0092EF;
+}
+
+.item>h2:hover,
+.item>h2:hover a,
+.leading-0>h2:hover,
+.leading-0>h2:hover a,
+.newsflash .readmore:hover,
+.readmore a{
+    color: #640B0F;
+}
+
+.newsflash .newsflash-title a:hover{
+    color: #555;
+}
+
+.items-more ol li a,
+.top-content .lnd_latestnews_item a:hover,
+.top-content .ns2-row a:hover{
+    color: #ccc;
+}
+
+.newsflash .newsflash-title a,
+.category-name a,
+.result-created,
+.result-category{
+    color: #990000;
+}
+
+/* #FFF Color */
+.breadcrumb li a,
+.items-more,
+.items-more ol li a:hover,
+.newsflash .readmore,
+.readmore:hover a,
+.tip-title,
+.tip-text,
+.top-content .ns2-row a,
+.top-content .weather_sp1{
+    color: #fff;
+}
+
+.center-main-contetn .search{
+    color: #888;
+}
+
+/* Background */
+.blog>h1,
+.cat-children h3,
+.contact>h3,
+.item>h2,
+.items-more h3,
+.item-page>h2:first-child,
+.leading-0>h2,
+.search .page-title,
+.moduletable h3,
+.newsflash .readmore,
+.readmore a:hover{
+    background: #640B0F;
+}
+
+.leading-0>h2:hover,
+.item>h2:hover,
+.newsflash .newsflash-title a,
+.newsflash .readmore:hover,
+.readmore a{
+    background: rgba(204,204,204, 0.4);
+}
+
+.items-more ol li:nth-child(odd){
+    background: #770000;
+}

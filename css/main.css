@@ -1,0 +1,98 @@
+/**
+ * Main CSS 
+ * 
+ * In this CSS is stored main layouts
+ */
+
+/*BODY & Main Background*/
+
+.reset{ margin: 0; padding: 0;}
+
+a:hover{ text-decoration: none; }
+
+body{
+    /*background: url(../images/dark_stripes.png);*/
+    background: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    margin: 0 auto;
+    width: 990px;
+}
+
+.commercial{
+    height: 100%;
+    left:50%;
+    margin: 0px 0px 0px 512px;
+    overflow: hidden;
+    position: fixed;
+    right: 50%;
+    width: 500px;
+    
+}
+.commercial img{ 
+    float:left; 
+}
+.commercial .c-left img{ float:right;}
+.c-left{
+    margin: 0px 0px 0px -988px;
+}
+
+.main-container{
+    background: url(../images/debut_light.png);
+    border-left: 1px solid #F1E8E6;
+    border-right: 1px solid #F1E8E6;
+    padding: 5px 5px 0px 5px;
+}
+
+.after-menu{
+    
+    padding: 5px 0px 5px 0px;
+}
+
+.center-content{
+    border-top: 2px solid #990000;
+    float: left;
+    margin: 0px 0px 10px 0px;
+    width: 978px; 
+}
+
+.main-content{
+    float: left;
+    margin: 0px 10px 0px 10px;
+    width: 598px;
+}
+
+.top-content{
+    background: #990000;
+    float: left;
+    margin-bottom: 10px;
+    width: 598px;
+}
+
+.center-main-content{
+    float: left;
+    width: 598px;
+}
+
+/* Sides */
+.left-side,
+.right-side{
+    float: left;
+    width: 180px;
+}
+
+.footer{
+    border-top: 2px solid #550000;
+    color: #990000;
+    float: left;
+    display: block;
+    width: 100%;
+}
+
+.footer .copyright{
+    display: table;
+    margin: 5px auto;
+}

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.6//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension
+	version="2.5"
+	type="template"
+	client="site">
+	<name>FREE Template IBS</name>
+	<creationDate>4/5/13</creationDate>
+	<author>Aleksandar Vučenić - IBS</author>
+	<authorEmail>aleksandar.vucenic@gmail.com</authorEmail>
+	<authorUrl>http://www.ibs-serbia.com</authorUrl>
+	<copyright>Copyright (C) 2013 Open Source Matters, Inc. All rights reserved.</copyright>
+	<license>FREE</license>
+	<version>2.5.0</version>
+	<description>Need to take a litle cosmetic stufs and edits but I think is ok template.</description>
+	<files>
+		<folder>html</folder>
+		<folder>css</folder>
+		<folder>images</folder>
+		<folder>language</folder>
+		<folder>js</folder>
+		<filename>index.php</filename>
+		<filename>index.html</filename>
+		<filename>templateDetails.xml</filename>
+	</files>
+
+	<positions>
+		<position>custombanner</position>
+		<position>search</position>
+		<position>top-banner</position>
+		<position>head-banner</position>
+		<position>mainmenu</position>
+		<position>breadcrumbs</position>
+		<position>top</position>
+		<position>bottom</position>
+		<position>left</position>
+		<position>right</position>
+		<position>user1</position>
+		<position>user2</position>
+		<position>user3</position>
+		<position>user4</position>
+		<position>user10</position>
+	</positions>
+
+</extension>

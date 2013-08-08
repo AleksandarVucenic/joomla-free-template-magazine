@@ -1,0 +1,164 @@
+/**
+ * Modules CSS
+ * 
+ * @param Search Box
+ */
+
+/*----- GLOBAL MODULE STYLRE -----*/
+.moduletable{
+    margin-bottom: 10px;
+}
+.top-banner .moduletable,
+.after-menu .moduletable,
+.top-content .moduletable{
+    float: left;
+    margin: 0px;
+}
+
+.header .moduletable{
+    margin: 0px;
+}
+
+.top-content .moduletable{
+    color: #fff;
+    border-left: 1px solid #550000;
+    float: left;
+}
+
+.top-content .moduletable:first-child{
+    border-left: none;
+}
+
+.moduletable img{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+/* ----- Search Box ----- */
+.search{
+    display: block;
+    float: right;
+}
+.search .form-inline{ margin: 0px;}
+.search .search-query{
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px; 
+}
+.search .search-query:focus{ box-shadow: 0px 0px 10px -3px #990000; }
+
+.btn-primary,
+.search .button{ background: #990000; }
+.btn-primary:hover,
+.search .button:hover{ background: #550000; }
+
+/*----- Banners -----*/
+.top-banner{ 
+    border-bottom: 2px solid #640B0F;
+    margin-bottom: 5px; 
+    float: left;
+    padding-bottom: 5px;
+    width: 978px;
+}
+
+.top-banner .banneritem{
+    float: left;
+    margin-left: 6px;
+    width: 485px;
+}
+
+.top-banner .banneritem:first-child{
+    margin-left: 0px;
+} 
+
+.top-banner .banneritem img{
+    float: left;
+} 
+
+.left-side .banneritem,
+.right-side .banneritem{
+    margin: 0px 0px 2px 0px;
+}
+
+/*----- breadcrumb -----*/
+.breadcrumb{
+    color: #fff;
+    background: #990000;
+    display:inline;
+    float: left;
+    margin: 0px 0px 0px 0px;
+    padding: 5px;
+}
+
+.breadcrumb li{
+    display: inline;
+}
+
+.breadcrumb .active{ display:none;}
+.breadcrumb .divider img{ margin-top:-2px;}
+
+/*----- All news -----*/
+/* Width For Top content NEWS Module */
+.top-content .div_lnd_list,
+.top-content .nssp2{
+    float:left;
+    width: 340px;
+}
+
+.top-content .lnd_latestnews_item,
+.top-content .ns2-row{
+    background: #990000;
+    border-bottom: 1px solid #550000;
+    float: left;
+    padding: 0px;
+    display: block;
+    width: 340px;
+}
+
+.top-content .lnd_latestnews_item{ padding:3px; width: 334px; }
+
+.top-content .lnd_latestnews_container{
+    list-style: none;
+    margin: 0px;
+    float: left;
+}
+
+.top-content .lnd_latestnews_item a{
+    color: #fff;
+    display: block;
+    margin: 0px;
+}
+
+.top-content .lnd_latestnews_item .date{
+    color: #999;
+    font-weight: normal;
+}
+
+.top-content .lnd_latestnews_item:nth-child(even),
+.top-content .ns2-row:nth-child(even){
+    background: #640B0F;
+}
+
+/*----- SP Weather -----*/
+.top-content .weather_k1,
+.top-content .weather_sp1{
+    height: 100%;
+    float: left;
+    width: 246px;
+}
+
+/*----- Flash News -----*/
+.newsflash{
+    background: rgba(255,255,255, 0.5);
+    border: 1px solid rgba(204,204,204, 0.5);
+    display: block;
+    padding: 0px 3px 3px 3px;
+}
+
+.newsflash .newsflash-title a{
+    font-weight: normal;
+    margin: 0px -3px 5px -3px;
+    padding: 3px;
+    width: 100%;
+}

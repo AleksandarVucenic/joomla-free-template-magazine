@@ -1,0 +1,26 @@
+/**
+ * Fonts CSS 
+ * 
+ * Stored all fonts 
+ * @param Folder-Font  'pazova/fonts/font_file.ttf'
+ */
+
+@font-face
+{
+    font-family: BenchNine-Regular;
+    src: url(../fonts/BenchNine-Regular.ttf);
+}
+
+@font-face
+{
+    font-family: OpenSans-CondLight;
+    src: url(../fonts/OpenSans-CondLight.ttf);
+}
+
+@font-face
+{
+    font-family: StintUltraCondensed-Regular;
+    src: url(../fonts/StintUltraCondensed-Regular.ttf);
+}
+
+

@@ -1,0 +1,16 @@
+/**
+ * Head CSS
+ * 
+ * Stored all CSS for HEADER and SLIDER
+ */
+.header{
+    float: left;
+    width: 978px;  
+}
+
+.header img{
+    border: 1px solid #999;
+    height: 150px;
+    margin-left: -1px;
+    /*background: #BD362F;*/ 
+}

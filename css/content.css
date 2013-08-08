@@ -1,0 +1,289 @@
+/**
+ * Content CSS
+ * 
+ */
+
+/*--- BACKGROUND ---*/
+.cat-children,
+.center-main-contetn .search,
+.contact,
+.item-page,
+.items-row,
+.leading-0,
+.gallery,
+.readmore a{ 
+    background: rgba(255,255,255, 0.5);
+    border: 1px solid rgba(204,204,204, 0.5);
+}
+
+.items-more,
+.tip-wrap{
+    background: #990000;
+}
+
+.items-more ol li:nth-child(even)
+.items-more ol li:nth-child(even){
+    background: #770000;  
+    display: inline; 
+}
+
+.items-more ol li:hover{
+    background: #660000;
+}
+
+
+
+
+/* Custom Borders */
+/*----- Image Intro -----*/
+.img-fulltext-none,
+.img-fulltext-left,
+.img-fulltext-right,
+.item img,
+.img-intro-float-none,
+.img-intro-left,
+.img-intro-right,
+.tip-wrap{
+    border: 1px solid #990000;
+}
+
+.article-info{
+    border-bottom: 1px solid #550000;
+}
+
+.item .img-intro-left,
+.item .img-intro-right{
+    border:none;
+}
+
+.items-more ol li{
+    border-left: 1px solid #550000;
+    border-bottom: 1px solid #550000;
+}
+
+.search-results .result-created{
+    border-bottom: 1px solid #ccc;
+}
+
+.tip-top{
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #990000;
+}
+
+/* Display */
+.article-info,
+.item-leading,
+.items-more,
+.items-row{ display: table; }
+
+.cat-children,
+.center-main-contetn .search,
+.contact,
+.gallery,
+.leading-0,
+.readmore a,
+.search-results .result-created{ display: block; }
+
+.readmore,
+.phrases{ display: inline-block; }
+
+
+/* Layout */
+.article-info{
+    margin: 0px 0px 3px 0px;
+}
+
+.article-info{
+    padding: 3px 0px 3px 0px;
+}
+.items-more,
+.article-info{
+    width: 100%;
+}
+
+
+/* Float */
+.cols-2,
+.category-name{
+    float: left;
+}
+
+.published{
+    float: right;
+}
+/*----- Margin -----*/
+.published,
+.category-name{
+    display: inline;
+    font-family: BenchNine-Regular, Arial;
+    font-size: 17px;
+    margin: 0px;
+}
+
+.published .icon-calendar,
+.category-name .icon-th-list{
+    margin: 3px 5px 0px 0px;
+}
+
+.items-row{
+    width: 588px;
+}
+/* Intro image */
+.img-fulltext-left,
+.img-intro-left
+{
+    float: left;
+    margin: 5px 5px 5px 0px;
+}
+
+
+.img-fulltext-right,
+.img-intro-right{
+    float: right;
+    margin: 5px 0px 5px 5px;
+}
+
+/*----- Item leading -----*/
+.gallery,
+.cat-children,
+.item-page,
+.items-row,
+.leading-0{
+    padding: 5px;
+    margin: 0px 0px 10px 0px;
+}
+
+.cols-2 .column-2{ margin-left: 5px;}
+
+/*Items*/
+.items-row{
+    float: left;
+}
+.item{
+    float: left;
+    width: 291px;
+}
+
+.item-page{
+    width: auto;
+}
+
+/* Image Intro */
+.item img{
+    margin: 0px 0px 0px 0px;
+    width: 288px; 
+}
+
+.item .img-intro-left,
+.item .img-intro-right{
+    margin: 0px 0px 5px 0px;
+}
+
+.item-page img,
+.leading-0 img,
+.center-main-contetn img{
+    max-width: 584px;
+}
+
+
+/*----- Search -----*/
+.center-main-contetn .search{
+    float: left;
+    padding: 5px;
+}
+
+#searchForm{
+    display: table;
+    clear: both;
+}
+
+.counter{
+    display: block;
+}
+
+.only,
+.phrases{ float: left; width: 290px;}
+
+/*Search results*/
+.search-results .result-created{
+    padding: 0px 0px 5px 0px;
+    margin: 0px 0px 5px 0px;
+}
+
+/*----- ITEMS MORE  -----*/
+.items-more ol{
+    margin-left: 35px;
+    padding: 0px;
+    margin: 0px 0px 0px 35px;
+}
+ 
+/*----- Contact Style -----*/
+.contact{
+    clear: both;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+/* Tool Tip */
+.tip-wrap{
+    margin: 10px 0px 0px -45px;
+    padding: 5px;
+}
+
+.tip-top{
+    margin: -15px 0px 0px 15px;
+    position: absolute;
+}
+
+/* Gallery */
+
+
+/*----- PAGINATION -----*/
+.pagination{
+    float: left;
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+}
+
+.pagination ul{
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    display: table;
+    margin: 10px auto;
+}
+
+.pagination ul>li>span,
+.pagination ul li a{
+    background: #660000;
+    border: 1px solid #550000;
+    border-left: none;
+    color: #fff;
+    padding: 6px;
+}
+
+.pagination ul li .pagenav:hover{
+    background: #990000;
+}
+
+.pagination ul>li>span
+{
+    background: #990000;
+    color: #ccc;
+}
+
+.pagination .counter{
+    display: none;
+}
+
+.pagination ul .pagination-start,
+.pagination ul .pagination-end{
+    
+}
+
+.pagination ul li{
+    border-radius: none;
+}
+
+
